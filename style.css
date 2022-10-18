@@ -1,0 +1,40 @@
+div{
+ float:left;
+ height:300px;
+}
+.div_1{
+    width: 50%;
+    background-color: rgb(16, 16, 245);
+}
+.div_2{
+    width:50%;
+    background-color: red;
+}
+
+@media  only screen and (max-width:600px) {
+    body{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+.div_1{
+    width:50%;
+    background-color: green;
+    margin-bottom: 50%;
+}
+.div_2{
+    width:50%;
+    background-color:turquoise;
+}
+}
+.container {
+ margin: 100px 100px 0 100px;
+}
+p{
+    font-family: 'Silkscreen', cursive;
+}
+
+     
+    
+     
